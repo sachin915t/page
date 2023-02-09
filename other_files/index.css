@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+    width:  inherit;
+    padding: 20px;
+}
+.nav-section{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 200px;
+
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.nav-bar a:hover{
+    color: rgb(100, 92, 255);
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    padding: 10px;
+    background-color: rgb(100, 92, 255);
+    border-radius:5px ;
+    transition: 0.4s ease-in;
+}
+.contact:hover{
+    background-color: rgb(42, 40, 94);
+}
+/* all */
+.hero-background{
+    background-image: url(https://html-css-simply-recipes.netlify.app/assets/main.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 10px;
+    width: 55%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    margin-block:20px ;
+    height: 500px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.176);
+}
+.background-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background h1{
+    font-size: 3.9rem;
+}
+.background h3{
+    font-size: 2.1rem;
+}
+
+
+
+.item-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.item-box a{
+    color: grey;
+    transition: 0.4s ease-in;
+}
+.item-box>a:hover{
+    color: rgb(100, 92, 255);
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.box{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    
+}
+.grid-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-around;
+
+
+}
+.boxes{
+   display: flex;
+   flex-direction: column;
+    gap: 10px;
+    transition: 0.5s ease-in-out;
+}
+.box-text h3{
+    font-weight: 300;
+}
+.box-text p{
+    color: grey;
+}
+.boxes img{
+    position: relative;
+    border-radius: 8px;
+    width: 100%;
+    height: 70%;
+}
+
+.boxes:hover{
+
+    transform: scale(1.2) translatex(-10px);
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: inherit;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+.foot>h4>a{
+    color: rgb(100, 92, 255);
+    text-decoration: none;
+}
