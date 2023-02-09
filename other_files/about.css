@@ -157,3 +157,24 @@ body{
 .about-box>h2{
     text-align: center;
 }
+
+.github{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.github p{
+    letter-spacing: 3px;
+}
+.github i{
+    font-size: 70px;
+    color: black;
+    transition: 1s ease-in-out;
+}
+.github i:hover{
+    transform: translatex(-10px) rotate(360deg);
+}
